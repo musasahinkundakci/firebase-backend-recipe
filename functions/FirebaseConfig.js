@@ -1,7 +1,7 @@
 const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 
-const FIREBASE_STORAGE_BUCKET = "daily-bites-b6c06.appspot.com"//env den aldık web uyglamsın
+const FIREBASE_STORAGE_BUCKET = "daily--b6c06.appspot.com"//env den aldık web uyglamsın
 
 const apiFirebaseOptions = {
     ...functions.config().firebase,
